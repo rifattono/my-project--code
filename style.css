@@ -1,0 +1,134 @@
+
+@import'felx.css';
+
+@media (max-width: 760px){
+    header{
+        width: 100%;
+    }
+}
+
+:root{
+ 
+    --primary:#3dcfd3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+    --secondary:#070606;
+
+
+}
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'poppin',sans-serif;
+}
+header{
+
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 98% );
+    
+
+}
+.contenar{
+
+max-width: 1152px;
+padding: 0 15px;
+margin: 0 auto;
+
+
+}
+header nav .left a{
+
+color: var(--pure);
+text-decoration: none;
+margin-right: 2rem;
+text-transform: uppercase;
+transition: all .3s ease;
+
+}
+header nav .left a:hover{
+
+    color: var(--primary);
+}
+header nav{
+padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero{
+    padding: 3rem 0;
+}
+.hero img{
+    width: 400px;
+}
+.hero .right{
+    color: var(--pure);
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+font-size: 4rem;
+font-weight: 100;
+line-height: 1.2;
+margin-bottom: 2rem;
+
+}
+.hero .right h1 span{
+    color: var(--primary);
+}
+.hero .right p{
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.hero .right{
+    margin-top: -7rem;
+}
+section{
+    padding: 6rem 0;
+}
+.card{
+
+text-align: center;
+display: flex;
+
+
+}
+
+
+
+
+
+
+.sifat{
+
+    color: #ba4a22;
+}
+.freelancer{
+margin-top: 100px;
+text-align: center;
+background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('camera.png');
+color: var(--pure);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 98% );
+padding-bottom: 14rem;
+
+}
+.freelancer h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.freelancer p{
+
+    margin-bottom: 2rem;
+    font-family: 'lato', sans-serif;
+}
